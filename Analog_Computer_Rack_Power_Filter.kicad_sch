@@ -454,6 +454,164 @@
 				)
 			)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Q_NPN_Darlington_BCE"
 			(pin_names
 				(offset 0) hide)
@@ -1175,6 +1333,88 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -1988,6 +2228,18 @@
 		)
 		(uuid c449cc01-6031-4799-b41b-614c6f081946)
 	)
+	(rectangle
+		(start 181.61 20.32)
+		(end 231.14 71.12)
+		(stroke
+			(width 0.508)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f18e0009-ff68-45b4-8f88-30d1e42ceb39)
+	)
 	(text "+12V"
 		(exclude_from_sim no)
 		(at 34.544 23.622 0)
@@ -2022,6 +2274,18 @@
 		)
 		(uuid "8895a558-c88e-4d22-8546-7a64c0be4fd7")
 	)
+	(text "Mountingholes"
+		(exclude_from_sim no)
+		(at 194.564 23.876 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "9136f94d-466f-442d-8643-639f8ccf5f92")
+	)
 	(text "RC filter: Corner Frequency is around 10Hz"
 		(exclude_from_sim no)
 		(at 62.738 132.842 0)
@@ -2042,6 +2306,80 @@
 		)
 		(uuid "daa8513b-0bb5-4d8b-a379-11e307937bf0")
 	)
+	(text "TB003-500-P02BE"
+		(exclude_from_sim no)
+		(at 45.212 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ddcca09d-0f6e-47d1-928a-d30855224f52")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 200.66 36.83 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0189a4d7-1201-436e-b74f-dc9f0d6e9672")
+		(property "Reference" "H1"
+			(at 203.2 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 203.2 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Analog_Computer_Rack_Power_Filter"
+				(path "/08313ceb-7b28-41a0-aef6-a4a4db5d9861"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 102.87 52.07 0)
@@ -2061,7 +2399,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "2.2u"
 			(at 106.68 53.3399 0)
 			(effects
 				(font
@@ -2070,7 +2408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02"
 			(at 103.8352 55.88 0)
 			(effects
 				(font
@@ -2177,6 +2515,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 200.66 46.99 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1195f843-b166-4487-b514-5379f818c6a4")
+		(property "Reference" "H3"
+			(at 203.2 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 203.2 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Analog_Computer_Rack_Power_Filter"
+				(path "/08313ceb-7b28-41a0-aef6-a4a4db5d9861"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 140.97 53.34 0)
 		(unit 1)
@@ -2243,6 +2645,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 74.93 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26476980-1256-4567-bf40-4a6528f1ac57")
+		(property "Reference" "C4"
+			(at 69.088 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 60.198 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+			(at 75.8952 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 74.93 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2dfa27f3-4081-4255-8fd1-403e7394011c")
+		)
+		(pin "1"
+			(uuid "8721ea3c-9011-441c-a6e7-2fce57d69d62")
+		)
+		(instances
+			(project "Analog_Computer_Rack_Power_Filter"
+				(path "/08313ceb-7b28-41a0-aef6-a4a4db5d9861"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 133.35 96.52 0)
 		(unit 1)
@@ -2261,7 +2732,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 137.16 97.7899 0)
 			(effects
 				(font
@@ -2270,7 +2741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02"
 			(at 134.3152 100.33 0)
 			(effects
 				(font
@@ -2331,7 +2802,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 137.16 53.3399 0)
 			(effects
 				(font
@@ -2340,7 +2811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02"
 			(at 134.3152 55.88 0)
 			(effects
 				(font
@@ -2472,7 +2943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "analog_computing:TerminalBlock_TB003-500-P02BE"
 			(at 50.8 109.22 0)
 			(effects
 				(font
@@ -2613,7 +3084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "analog_computing:TerminalBlock_TB003-500-P02BE"
 			(at 148.59 50.8 0)
 			(effects
 				(font
@@ -2683,7 +3154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "analog_computing:TerminalBlock_TB003-500-P02BE"
 			(at 148.59 104.14 0)
 			(effects
 				(font
@@ -2726,87 +3197,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 74.93 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ac90fdb-b975-4b93-a2ce-938596d0ea70")
-		(property "Reference" "C5"
-			(at 78.74 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "160µ"
-			(at 78.74 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 75.8952 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 74.93 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f07873dc-698e-4ef7-aa68-6998fd9a079c")
-		)
-		(pin "1"
-			(uuid "7a2c180d-0903-48f0-a3fc-9a0558971cc1")
-		)
-		(instances
-			(project "Analog_Computer_Rack_Power_Filter"
-				(path "/08313ceb-7b28-41a0-aef6-a4a4db5d9861"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized")
 		(at 74.93 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51d41f36-94ea-42da-a976-770040c100c5")
-		(property "Reference" "C3"
-			(at 78.74 57.1499 0)
+		(uuid "4d6c9612-e7ca-429a-a050-4b9534e4e624")
+		(property "Reference" "C9"
+			(at 68.58 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,8 +3214,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "160µ"
-			(at 78.74 59.6899 0)
+		(property "Value" "C_Polarized"
+			(at 59.944 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +3223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 75.8952 62.23 0)
 			(effects
 				(font
@@ -2841,7 +3241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 74.93 58.42 0)
 			(effects
 				(font
@@ -2851,15 +3251,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2b94387f-8735-43e3-a0fe-7a74d46eaa29")
+			(uuid "baca324f-d0a2-41f9-b753-0e4ad7d5ba82")
 		)
 		(pin "1"
-			(uuid "0c8daa33-c186-42b8-98c7-01cc16ad0bcf")
+			(uuid "f4557712-f4b4-4855-aaa1-2416886aa617")
 		)
 		(instances
-			(project "Analog_Computer_Rack_Power_Filter"
+			(project ""
 				(path "/08313ceb-7b28-41a0-aef6-a4a4db5d9861"
-					(reference "C3")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -2932,6 +3332,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 200.66 41.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64b667bf-a1b4-4413-8116-7468154b6408")
+		(property "Reference" "H2"
+			(at 203.2 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 203.2 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 200.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 200.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Analog_Computer_Rack_Power_Filter"
+				(path "/08313ceb-7b28-41a0-aef6-a4a4db5d9861"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 81.28 96.52 90)
 		(unit 1)
@@ -2948,7 +3412,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 81.28 99.06 90)
 			(effects
 				(font
@@ -2956,7 +3420,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 81.28 98.298 90)
 			(effects
 				(font
@@ -3211,7 +3675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "2.2u"
 			(at 105.41 97.7899 0)
 			(effects
 				(font
@@ -3220,7 +3684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02"
 			(at 102.5652 100.33 0)
 			(effects
 				(font
@@ -3334,76 +3798,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 87.63 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3e70832-beef-4927-89f4-93df645867e6")
-		(property "Reference" "C6"
-			(at 91.44 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "160µ"
-			(at 91.44 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.5952 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 87.63 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9a778d8a-ab8b-485f-894b-e34a780a81d8")
-		)
-		(pin "1"
-			(uuid "9a0b37f6-7d36-420f-a924-74996f3745a1")
-		)
-		(instances
-			(project "Analog_Computer_Rack_Power_Filter"
-				(path "/08313ceb-7b28-41a0-aef6-a4a4db5d9861"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Q_NPN_Darlington_BCE")
 		(at 87.63 44.45 90)
 		(unit 1)
@@ -3475,76 +3869,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 87.63 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c14e5692-fffb-40ef-a9de-e2d122b778bf")
-		(property "Reference" "C4"
-			(at 91.44 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "160µ"
-			(at 91.44 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.5952 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 87.63 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4313e028-927d-48fc-9e1e-cc7e4c231c20")
-		)
-		(pin "1"
-			(uuid "ab600135-9d30-4509-ae45-94b684d800cb")
-		)
-		(instances
-			(project "Analog_Computer_Rack_Power_Filter"
-				(path "/08313ceb-7b28-41a0-aef6-a4a4db5d9861"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 81.28 52.07 90)
 		(unit 1)
@@ -3562,7 +3886,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 81.28 48.26 90)
 			(effects
 				(font
@@ -3570,7 +3894,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 81.28 53.848 90)
 			(effects
 				(font
@@ -3607,6 +3931,140 @@
 			(project "Analog_Computer_Rack_Power_Filter"
 				(path "/08313ceb-7b28-41a0-aef6-a4a4db5d9861"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 200.66 52.07 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0523cbd-4939-4f50-a9aa-c49d1e183009")
+		(property "Reference" "H4"
+			(at 203.2 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 203.2 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 200.66 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 200.66 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Analog_Computer_Rack_Power_Filter"
+				(path "/08313ceb-7b28-41a0-aef6-a4a4db5d9861"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 87.63 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1ce0a56-8fe7-4b07-aeaa-15e6d5edfe00")
+		(property "Reference" "C3"
+			(at 91.44 56.2609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 91.44 58.8009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+			(at 88.5952 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 87.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88f6ac77-59ac-418e-ab72-09a2bfaf6404")
+		)
+		(pin "1"
+			(uuid "26734e56-cd29-4a22-84ae-bdc40a9121d9")
+		)
+		(instances
+			(project "Analog_Computer_Rack_Power_Filter"
+				(path "/08313ceb-7b28-41a0-aef6-a4a4db5d9861"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3745,6 +4203,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 87.63 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbc29c20-439e-4dfd-ae93-221489a2104f")
+		(property "Reference" "C5"
+			(at 91.44 88.0109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 91.44 90.5509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+			(at 88.5952 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 87.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95bf1c54-2d4e-46da-82da-b0ed9c47cf5c")
+		)
+		(pin "1"
+			(uuid "708411a5-cbb1-46b7-b677-902c95bc87a0")
+		)
+		(instances
+			(project "Analog_Computer_Rack_Power_Filter"
+				(path "/08313ceb-7b28-41a0-aef6-a4a4db5d9861"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 68.58 52.07 90)
 		(unit 1)
@@ -3762,7 +4290,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 68.58 48.26 90)
 			(effects
 				(font
@@ -3770,7 +4298,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 68.58 53.848 90)
 			(effects
 				(font
@@ -3838,7 +4366,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "analog_computing:TerminalBlock_TB003-500-P02BE"
 			(at 50.8 44.45 0)
 			(effects
 				(font
@@ -4026,25 +4554,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fd569460-5384-49b8-9a17-86a7ecbf21ea")
 		(property "Reference" "R3"
-			(at 68.58 90.17 90)
+			(at 68.58 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 68.58 92.71 90)
+		(property "Value" "1k"
+			(at 68.58 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 68.58 98.298 90)
 			(effects
 				(font
